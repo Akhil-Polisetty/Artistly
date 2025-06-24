@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Aria Melody",
+    "category": "Singer",
+    "priceRange": "₹10,000 - ₹20,000",
+    "location": "Mumbai"
+  },
+  {
+    "id": 2,
+    "name": "Rhythm Crew",
+    "category": "Dancer",
+    "priceRange": "₹15,000 - ₹25,000",
+    "location": "Delhi"
+  },
+  {
+    "id": 3,
+    "name": "DJ Blaze",
+    "category": "DJ",
+    "priceRange": "₹20,000 - ₹30,000",
+    "location": "Bangalore"
+  },
+  {
+    "id": 4,
+    "name": "Voice Smith",
+    "category": "Speaker",
+    "priceRange": "₹5,000 - ₹10,000",
+    "location": "Hyderabad"
+  },
+  {
+    "id": 5,
+    "name": "Echo Ensemble",
+    "category": "Singer",
+    "priceRange": "₹12,000 - ₹22,000",
+    "location": "Chennai"
+  },
+  {
+    "id": 6,
+    "name": "Step Sync",
+    "category": "Dancer",
+    "priceRange": "₹18,000 - ₹28,000",
+    "location": "Kolkata"
+  },
+  {
+    "id": 7,
+    "name": "DJ Electra",
+    "category": "DJ",
+    "priceRange": "₹25,000 - ₹35,000",
+    "location": "Pune"
+  },
+  {
+    "id": 8,
+    "name": "Motivato",
+    "category": "Speaker",
+    "priceRange": "₹8,000 - ₹15,000",
+    "location": "Ahmedabad"
+  },
+  {
+    "id": 9,
+    "name": "Harmony Crew",
+    "category": "Singer",
+    "priceRange": "₹14,000 - ₹20,000",
+    "location": "Jaipur"
+  },
+  {
+    "id": 10,
+    "name": "Fusion Beats",
+    "category": "Dancer",
+    "priceRange": "₹16,000 - ₹24,000",
+    "location": "Lucknow"
+  }
+]
