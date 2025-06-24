@@ -12,15 +12,28 @@ export default function ManagerDashboard() {
       .catch((err) => console.error("Error loading submissions:", err));
   }, []);
 
-  const handleView = (artist) => {
-    alert(`Viewing artist: ${artist.name}`);
-    // Navigate or show modal in future
-  };
+ const handleArtistAction = (action, artist) => {
+  switch (action) {
+    case "view":
+      alert(`Viewing: ${artist.name}`);
+      break;
+    case "approve":
+      alert(`Approved: ${artist.name}`);
+      break;
+    case "reject":
+      alert(`Rejected: ${artist.name}`);
+      break;
+    default:
+      break;
+  }
+};
+
 
   return (
     <div className="max-w-5xl mx-auto p-6">
       <h1 className="text-3xl font-bold mb-6">Manager Dashboard</h1>
-      <ArtistTable data={submissions} onAction={handleView} />
+      <ArtistTable data={submissions} onAction={handleArtistAction} />
+
     </div>
   );
 }
